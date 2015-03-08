@@ -8,7 +8,7 @@ class PropertiesGroovy {
         String name
         int age
         boolean active
-        private Person father
+        Person father
     }
     
     public static List<?> getPropertiesList() {
